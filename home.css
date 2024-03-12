@@ -1,0 +1,224 @@
+.first{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.desc{
+    margin-left: 200px;
+    font-style: italic;
+    text-align: justify;
+    padding-right: 20px;
+}
+
+.title {
+    margin: 10px 0;
+    margin-left: 200px;
+} 
+
+.image {
+    padding-top: 90px;
+    margin-right: 10px; /* Adjust this value as needed */
+    padding-bottom: 50px;
+}
+
+
+.second{
+    background-color: bisque;
+}
+.dry {
+    text-align: center;
+}
+
+.collection{
+    display: flex;
+}
+
+.fruitdesc{
+    padding-left: 100px;
+    font-style: italic;
+}
+
+.fruitname{
+    display: block;
+    margin-top: 10px;
+    margin-left:90px;
+    font-size: 18px; /* Adjust font size as needed */
+}
+
+.nutrientrich{
+    display: flex;
+}
+
+.image1{
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.container1{
+    padding-left: 30px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+.btn {
+    padding: 15px 30px; /* Adjust padding to make button larger */
+    font-size: 18px; /* Adjust font size */
+    border: none;
+    cursor: pointer;
+    background-color: grey;
+    transition: background-color 0.1s; /* Add transition for color change */
+}
+
+.btn:hover {
+    background-color: #4CAF50; /* Change color on hover */
+}
+
+.cover{
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    width: 100%;
+    margin-bottom: 20px; /* Adjust spacing between rows */
+}
+
+.third{
+    height: 1200px;
+    background-color:beige;
+}
+
+.box{
+    margin: 40px;
+    width: 800px;
+    height: 420px;
+    background-color: coral;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.imag{
+    width: 400px;
+    height: 300px;
+    display: flex;
+}
+
+.btn1 {
+    padding: 5px 40px; /* Adjust padding to make button larger */
+    font-size: 18px; 
+    border: none;
+    cursor: pointer;
+    background-color: grey;
+    transition: background-color 0.1s; 
+    margin-left: 650px;
+}
+.btn1:hover {
+    background-color: #4CAF50; /* Change color on hover */
+}
+
+.text-box {
+    border: px solid #ccc; 
+    padding: 10px; 
+    width: 300px; 
+    margin: 10px; 
+    background-color: #f9f9f9; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-left: 190px;
+}
+
+
+
+
+
+
+
+footer{
+    background: #22e563;
+    padding-top: 50px;
+}
+.containerfooter{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.footer-content{
+    width: 33.3%;
+}
+h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.footer-content p{
+    width:190px;
+    margin: auto;
+    padding: 7px;
+}
+.footer-content ul{
+    text-align: center;
+}
+.list{
+    padding: 0;
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type:none;
+    padding: 7px;
+    position: relative;
+}
+.list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #f18930;
+    transition-duration: .5s;
+}
+.list li:hover::before{
+    width: 70px;
+}
+
+form {
+    display: flex; 
+    margin-left: 40px;
+}
+input[type="text"] {
+    padding: 10px;
+    margin-right: 10px; 
+}
+.submit-btn {
+    padding: 10px 20px; 
+    border: none; 
+    background-color: #1f098d; 
+    color: #fff; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+/* Change button color on hover */
+.submit-btn:hover {
+    background-color: #0307f5;
+}
